@@ -24,7 +24,7 @@ public class GeneratorSTObject : STObject, IGenerator
 
     public void Refuel()
     {
-         if (!IsRefueled)
+        if (!IsRefueled)
         {
             IsRefueled = true;
             _refueled?.Invoke();
