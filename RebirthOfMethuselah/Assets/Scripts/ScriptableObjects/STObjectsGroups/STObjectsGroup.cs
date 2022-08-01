@@ -20,7 +20,7 @@ public abstract class STObjectsGroup<T> : STObjectsGroup where T : class
 
     protected virtual void OnValidate()
     {
-        for (int i = 0; i < _stObjects.Length; i++)
+        for (int i = 0; i < _stObjects?.Length; i++)
         {
             if (_stObjects[i]?.GetComponent<T>() is null)
             {
