@@ -24,10 +24,13 @@ public class GeneratorSTObject : STObject, IGenerator
 
     public void Refuel()
     {
-        IsRefueled = true;
-        _refueled?.Invoke();
-        CanSignal = true;
-        Signal(_signalableTarget as ISignalable);
+         if (!IsRefueled)
+        {
+            IsRefueled = true;
+            _refueled?.Invoke();
+            CanSignal = true;
+            Signal(_signalableTarget as ISignalable);
+        }
     }
 
     public void Signal(ISignalable target)
