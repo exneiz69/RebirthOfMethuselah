@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9da5f11b45f1de428bf25e2c30d44e1, type: 3}
+  m_Name: ProjectorsSTObjectsGroup
+  m_EditorClassIdentifier: 
+  _stObjects:
+  - {fileID: 7115913798363418095, guid: afe9178f10e5f9049a2698059126d934, type: 3}

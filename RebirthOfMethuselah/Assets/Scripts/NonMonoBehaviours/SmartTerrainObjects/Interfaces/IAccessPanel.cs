@@ -1,0 +1,1 @@
+public interface IAccessPanel : IWettable, ISignalable { }

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b662e27717235f24aa65bb8965a52c51, type: 3}
+  m_Name: WettersSTObjectsGroup
+  m_EditorClassIdentifier: 
+  _stObjects:
+  - {fileID: 7258197237666721052, guid: 905d67238cfe80f49a85b8855ca0841c, type: 3}
+  - {fileID: 5694506836900234599, guid: b875690c44f5cd642b6f51b88b3b6517, type: 3}

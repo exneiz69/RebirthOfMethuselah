@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be1eb22be0027d4bb81f15c1e7296d5, type: 3}
+  m_Name: STObjectsInteractions
+  m_EditorClassIdentifier: 
+  _interactions:
+  - _group: {fileID: 11400000, guid: 5e0467b27a5e3064487cf65ad68ab195, type: 2}
+    _name: Burn
+    _cause: {fileID: 11400000, guid: f5220f18f01bfc14c831bff7410a0369, type: 2}
+    _effect: {fileID: 11400000, guid: a2f56fbf6983d2349988c4bca826cf24, type: 2}
+  - _group: {fileID: 11400000, guid: b9d5927a8cc30bd4d938a818c65ca3b1, type: 2}
+    _name: Use
+    _cause: {fileID: 11400000, guid: e67db03a61e2e7e4fbf3a970ffd70399, type: 2}
+    _effect: {fileID: 11400000, guid: f5220f18f01bfc14c831bff7410a0369, type: 2}
+  - _group: {fileID: 11400000, guid: 987a4259a345c1b49951801d08a47dcf, type: 2}
+    _name: Short-circuit
+    _cause: {fileID: 11400000, guid: e91a76c5975f7ae40b82e9330aaf638f, type: 2}
+    _effect: {fileID: 11400000, guid: 1b5eff5955820f0419c4801f8dceb9f9, type: 2}
+  - _group: {fileID: 11400000, guid: 987a4259a345c1b49951801d08a47dcf, type: 2}
+    _name: Deactivate
+    _cause: {fileID: 11400000, guid: 24a3a4f574e25f44a89d2991918f5ea5, type: 2}
+    _effect: {fileID: 11400000, guid: 1b5eff5955820f0419c4801f8dceb9f9, type: 2}
+  - _group: {fileID: 11400000, guid: 8300857b97f20c646bcf017d503e0436, type: 2}
+    _name: Activate
+    _cause: {fileID: 11400000, guid: a2f56fbf6983d2349988c4bca826cf24, type: 2}
+    _effect: {fileID: 11400000, guid: e91a76c5975f7ae40b82e9330aaf638f, type: 2}
+  - _group: {fileID: 11400000, guid: d24233c767f726f47aef1df3a30adf43, type: 2}
+    _name: Use
+    _cause: {fileID: 11400000, guid: e67db03a61e2e7e4fbf3a970ffd70399, type: 2}
+    _effect: {fileID: 11400000, guid: e91a76c5975f7ae40b82e9330aaf638f, type: 2}
+  - _group: {fileID: 11400000, guid: fd32a2d11a8ef194c88ef8cd1a9fee7b, type: 2}
+    _name: Use
+    _cause: {fileID: 11400000, guid: e67db03a61e2e7e4fbf3a970ffd70399, type: 2}
+    _effect: {fileID: 11400000, guid: 24a3a4f574e25f44a89d2991918f5ea5, type: 2}
+  - _group: {fileID: 11400000, guid: 743bfb302427a0540aa0bb3da0e899f0, type: 2}
+    _name: Use
+    _cause: {fileID: 11400000, guid: e67db03a61e2e7e4fbf3a970ffd70399, type: 2}
+    _effect: {fileID: 11400000, guid: efb46f3a20d60b941bb8318b76209c3a, type: 2}
+  - _group: {fileID: 11400000, guid: d275c4e8e643982409e35665bbaf2552, type: 2}
+    _name: Destroy
+    _cause: {fileID: 11400000, guid: efb46f3a20d60b941bb8318b76209c3a, type: 2}
+    _effect: {fileID: 11400000, guid: 1b5eff5955820f0419c4801f8dceb9f9, type: 2}
+  - _group: {fileID: 11400000, guid: 535fdfc341447af49a70c0e7ce4abc9c, type: 2}
+    _name: Use
+    _cause: {fileID: 11400000, guid: e67db03a61e2e7e4fbf3a970ffd70399, type: 2}
+    _effect: {fileID: 11400000, guid: 5558a56be1dbee048be320031e63cfab, type: 2}
+  - _group: {fileID: 11400000, guid: 5873edf791455134086b8a5ed907346c, type: 2}
+    _name: Activate
+    _cause: {fileID: 11400000, guid: 5558a56be1dbee048be320031e63cfab, type: 2}
+    _effect: {fileID: 11400000, guid: 24a3a4f574e25f44a89d2991918f5ea5, type: 2}

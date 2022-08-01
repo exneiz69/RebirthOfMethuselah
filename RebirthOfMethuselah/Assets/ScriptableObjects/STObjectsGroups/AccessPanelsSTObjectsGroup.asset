@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f875f318a8a41324f8298fa7161edd29, type: 3}
+  m_Name: AccessPanelsSTObjectsGroup
+  m_EditorClassIdentifier: 
+  _stObjects:
+  - {fileID: 4054722719701479954, guid: c9c2746c1d8b4f44280db0df324979dc, type: 3}
